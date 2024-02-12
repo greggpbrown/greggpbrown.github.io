@@ -17,6 +17,35 @@ body {
     background: #222;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+    color: #ccc;
+}
+
+nav a {
+    cursor: pointer;
+    color: #ccc;
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+nav li:hover {
+    background: #888;
+}
+
+nav i {
+    padding-inline-end:3px;
+}
+
 h1 {
     color: #888;
     background: #444;
