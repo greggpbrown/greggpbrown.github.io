@@ -47,6 +47,10 @@ nav i {
     padding-inline-end:3px;
 }
 
+.container {
+    max-width: 75%;
+}
+
 h1 {
     color: #888;
     background: #444;
