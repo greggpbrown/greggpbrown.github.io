@@ -1,0 +1,22 @@
+[
+    {
+        "pageTitle" : "Home",
+        "pageURL"   : "./index.html",
+        "navIcon"   : "fa-home"
+    },
+    {
+        "pageTitle" : "News",
+        "pageURL"   : "./news.html",
+        "navIcon"   : "fa-newspaper"
+    },
+    {
+        "pageTitle" : "About",
+        "pageURL"   : "./about.html",
+        "navIcon"   : "fa-question"
+    },
+    {
+        "pageTitle" : "Contact",
+        "pageURL"   : "./contact.html",
+        "navIcon"   : "fa-envelope"
+    }
+]

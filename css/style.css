@@ -21,12 +21,8 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-}
-
-nav ul {
-    display: flex;
     color: #ccc;
+    display: flex;
 }
 
 nav a {
@@ -34,13 +30,19 @@ nav a {
     color: #ccc;
     text-decoration: none;
 }
-nav li {
-    list-style: none;
+nav .nav-item {
     padding: 5px;
 }
 
-nav li:hover {
-    background: #888;
+nav .current,
+nav .current a {
+    color: #fff;
+    text-shadow: 2px 2px 2px #888;
+    cursor: default;
+}
+
+nav .nav-item:hover {
+    background: #666;
 }
 
 nav i {
@@ -65,4 +67,13 @@ div.time {
     color: #888;
     text-shadow: 2px 2px #444;
     font-size: 18px;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    color: #ccc;
+    background: #333;
+    z-index: 0;
+    border-radius: 15px;
 }
