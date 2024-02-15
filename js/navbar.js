@@ -1,4 +1,4 @@
-// My custom JavaScript goes here
+// Script to poulate the Nav Bar
 
 // Find the nav bar
 const navbar = document.querySelector('nav');
@@ -11,27 +11,26 @@ fetch('../data/sitemap.json')
         // Loop through the data
         data.forEach(item => {
             // Create a new element for each item in the data
-            let element = document.createElement('div');
-
+            let element = document.createElement('a');
+            element.href = item.pageURL;
+            
             // Add classes to the element
             element.classList.add('nav-item');
-
+            
             // Check if current page
             if (currentPage == item.pageURL) {
                 element.classList.add('current');
             }
+
             // Add the icon
             let icon = document.createElement('i');
             icon.classList.add('fa', item.navIcon);
             element.appendChild(icon);
-
-            // Create an anchor tag for the page link
-            let link = document.createElement('a');
-            link.href = item.pageURL;
-            link.textContent = item.pageTitle;
-
-            // Append the link to the element
-            element.appendChild(link);
+            
+            // Add the text
+            let navtext = document.createElement('div');
+            navtext.textContent = item.pageTitle;
+            element.appendChild(navtext);
 
             // Append the element to the document body or other container
             navbar.appendChild(element);

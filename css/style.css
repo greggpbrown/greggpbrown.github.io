@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: default;
 }
 
 body {
@@ -25,32 +24,30 @@ nav {
     display: flex;
 }
 
-nav a {
-    cursor: pointer;
+a {
     color: #ccc;
     text-decoration: none;
-}
-nav .nav-item {
     padding: 5px;
+    display: flex;
 }
 
 nav .current,
 nav .current a {
     color: #fff;
     text-shadow: 2px 2px 2px #888;
-    cursor: default;
 }
 
-nav .nav-item:hover {
+a:hover {
     background: #666;
 }
 
-nav i {
-    padding-inline-end:3px;
+i {
+    padding-inline-end: 5px;
 }
 
 .container {
     max-width: 75%;
+    text-align: center;
 }
 
 h1 {
@@ -69,11 +66,32 @@ div.time {
     font-size: 18px;
 }
 
-p {
+article {
     padding: 10px;
     margin: 10px;
     color: #ccc;
     background: #333;
     z-index: 0;
     border-radius: 15px;
+}
+p {
+    text-align: justify;
+    padding-block: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    padding-block: 5px;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+}
+
+article h3 {
+    text-align: start;
 }
