@@ -1,0 +1,42 @@
+[
+    {
+        "pageTitle"     : "Navigation",
+        "pageURL"       : "projects/07-Navigation/index.html",
+        "description"   : "Idea for a Navigation Bar for a site or mobile application, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Color Stars",
+        "pageURL"       : "projects/08-Colour_Stars/index.html",
+        "description"   : "Twinkling lights in a night sky, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Falling Stars",
+        "pageURL"       : "projects/09-Falling_Stars/index.html",
+        "description"   : "Falling stars of differing colours, speed and rotations, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Flashlight",
+        "pageURL"       : "projects/10-Flashlight/index.html",
+        "description"   : "Interesting box display effect, speed and rotations, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Cards",
+        "pageURL"       : "projects/11-cards/index.html",
+        "description"   : "Beautiful image gallery, speed and rotations, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Sliding Cards",
+        "pageURL"       : "projects/12-Sliding_Cards/index.html",
+        "description"   : "Slideshow effect, speed and rotations, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Toggle Button",
+        "pageURL"       : "projects/14-Toggle_Button/index.html",
+        "description"   : "Toggle button, speed and rotations, built with CSS & JavaScript"
+    },
+    {
+        "pageTitle"     : "Sliders",
+        "pageURL"       : "projects/15-Sliders/index.html",
+        "description"   : "Full-page image slider effect, speed and rotations, built with CSS & JavaScript"
+    }
+]

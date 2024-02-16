@@ -10,6 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    overflow-x: hidden;
     align-items: center;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,10 +30,10 @@ a {
     text-decoration: none;
     padding: 5px;
     display: flex;
+    transition: all 500ms;
 }
 
-nav .current,
-nav .current a {
+nav .current {
     color: #fff;
     text-shadow: 2px 2px 2px #888;
 }
@@ -46,8 +47,13 @@ i {
 }
 
 .container {
+
     max-width: 75%;
+    min-width: 50%;
     text-align: center;
+    display: block;
+    max-height: 90%;
+
 }
 
 h1 {
@@ -94,4 +100,14 @@ li {
 
 article h3 {
     text-align: start;
+}
+
+article a {
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+#projectlist {
+    display: flex;
+    flex-direction: column-reverse;
 }

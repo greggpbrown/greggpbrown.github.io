@@ -5,8 +5,8 @@
         "navIcon"   : "fa-home"
     },
     {
-        "pageTitle" : "News",
-        "pageURL"   : "./news.html",
+        "pageTitle" : "Projects",
+        "pageURL"   : "./projects.html",
         "navIcon"   : "fa-newspaper"
     },
     {
