@@ -16,10 +16,10 @@
         <article>
             <h2>Follow these steps to add up-to-date fixtures to your Google Calendar, and stays updated.</h2>
             <h3><strong>Important!</strong> Do this on your computer - won't work on your phone</h3>
-            <ol>
+            <ol class="steps">
                 <li class="step">
                     Copy the URL for the Sky Sports Rangers Calendar:
-                    <code>http://www.skysports.com/calendars/football/fixtures/teams/rangers</code>
+                    <code id="text" title="Click to copy">http://www.skysports.com/calendars/football/fixtures/teams/rangers</code>
                 </li>
                 <li class="step">
                     Go to <a href="https://calendar.google.com/" target="_blank">Google Calendar</a> on your computer.
@@ -36,5 +36,21 @@
             </ol>
         </article>
     </div>
+    <script>
+        // Function to copy text to clipboard
+        function copyTextToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert("Text copied to clipboard!");
+            }).catch(function(error) {
+                alert("Failed to copy text: ", error);
+            });
+        }
+
+        // Add a click event listener to the element
+        document.getElementById("text").addEventListener("click", function() {
+            const text = this.innerText; // Get the text content of the element
+            copyTextToClipboard(text);   // Call the copyTextToClipboard function
+        });
+    </script>
 </body>
 </html>
