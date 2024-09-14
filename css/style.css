@@ -110,6 +110,7 @@ li {
     list-style: upper-roman;
     background-color: #444;
     padding: 10px;
+    display: inline;
 }
 
 .step img {
@@ -120,6 +121,7 @@ li {
     color: aqua;
     cursor: pointer;
     padding: 5px;
+    display: inline;
 }
 
 .step a:hover, .step code:hover {
