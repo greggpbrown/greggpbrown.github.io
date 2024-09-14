@@ -120,6 +120,7 @@ li {
     color: aqua;
     cursor: pointer;
     padding: 5px;
+    display: inline;
 }
 
 .step a:hover, .step code:hover {
