@@ -25,7 +25,7 @@ nav {
     display: flex;
 }
 
-a {
+.nav-item, a {
     color: #ccc;
     text-decoration: none;
     padding: 5px;
@@ -38,7 +38,7 @@ nav .current {
     text-shadow: 2px 2px 2px #888;
 }
 
-a:hover {
+.nav-item:hover, a:hover {
     background: #666;
 }
 
@@ -96,6 +96,34 @@ ul {
 li {
     list-style: none;
     width: 100%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    gap: 5px;
+}
+
+.step {
+    list-style: upper-roman;
+    background-color: #444;
+    padding: 10px;
+}
+
+.step img {
+    width: 100%;
+}
+
+.step a, .step code {
+    color: aqua;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.step a:hover, .step code:hover {
+    background-color: #888;
 }
 
 article h3 {
